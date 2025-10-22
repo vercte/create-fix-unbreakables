@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vercte.create_fix_unbreakables.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cabin_fix_unbreakables.refmap.json",
+  "mixins": [
+    "BeltDeployerCallbacksMixin",
+    "ManualApplicationRecipeMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
